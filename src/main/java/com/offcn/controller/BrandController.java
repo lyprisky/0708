@@ -23,8 +23,8 @@ public class BrandController {
     public  List<TbBrand> getRedis(){
        return  brandService.getRedis("rose");
     }
-    @ReqestMapping("/test")
-    public vod test(){
+    @RequestMapping("/test")
+    public void test(){
         System.out.println("嘻嘻");
     }
 }
